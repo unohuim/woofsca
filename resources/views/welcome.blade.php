@@ -16,7 +16,7 @@
                     </p>
                     <div class="mt-10 flex items-center gap-x-6">
                         <a href="#inquire"
-                            class="rounded-md bg-indigo-600 px-3.5 py-1.5 text-base font-semibold leading-7 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Inquire</a>
+                            class="rounded-md bg-purple-900 px-3.5 py-1.5 text-base font-semibold leading-7 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-purple-900">Inquire</a>
                         <a href="#services" class="text-base font-semibold leading-7 text-gray-900">Learn more <span
                                 aria-hidden="true">→</span></a>
                     </div>
@@ -130,13 +130,13 @@
 
 
 
-    <section id="testimonials" class="bg-indigo-800">
+    <section id="testimonials" class="bg-purple-900">
         <div class="mx-auto max-w-7xl md:grid md:grid-cols-2 md:px-6 lg:px-8">
             <div class="py-12 px-6 md:flex md:flex-col md:border-r md:border-indigo-900 md:py-16 md:pl-0 md:pr-10 lg:pr-16">
 
                 <blockquote class="mt-6 md:flex md:flex-grow md:flex-col">
                     <div class="relative text-lg font-medium text-white md:flex-grow">
-                        <svg class="absolute top-0 left-0 h-8 w-8 -translate-x-3 -translate-y-2 transform text-indigo-600"
+                        <svg class="absolute top-0 left-0 h-8 w-8 -translate-x-3 -translate-y-2 transform text-purple-900"
                             fill="currentColor" viewBox="0 0 32 32" aria-hidden="true">
                             <path
                                 d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
@@ -160,7 +160,7 @@
 
                 <blockquote class="mt-6 md:flex md:flex-grow md:flex-col">
                     <div class="relative text-lg font-medium text-white md:flex-grow">
-                        <svg class="absolute top-0 left-0 h-8 w-8 -translate-x-3 -translate-y-2 transform text-indigo-600"
+                        <svg class="absolute top-0 left-0 h-8 w-8 -translate-x-3 -translate-y-2 transform text-purple-900"
                             fill="currentColor" viewBox="0 0 32 32">
                             <path
                                 d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
@@ -200,6 +200,8 @@
   ```
 -->
     <section id="inquire">
+
+
         <form action="https://caninex.com/leads/5/store?signature=3f071b83a1e0814db1c71e27630579f3c5050a3b47439bd8fdfa2a5566cc92e3" method="post">
             <fieldset>
                 <div class="overflow-hidden bg-white py-16 px-6 lg:px-8 lg:py-24">
@@ -284,7 +286,7 @@
 
                                 <div class="sm:col-span-2">
                                     <button type="submit"
-                                        class="inline-flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">Let's
+                                        class="inline-flex w-full items-center justify-center rounded-md border border-transparent bg-purple-900 px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">Let's
                                         talk</button>
                                 </div>
                             </form>
@@ -297,6 +299,7 @@
 
 
     <footer class="bg-white">
+
         <div class="mx-auto max-w-7xl py-12 px-6 md:flex md:items-center md:justify-between lg:px-8">
             <div class="flex justify-center space-x-6 md:order-2">
                 <a href="https://fb.com/woofsuponawalk" target="_blank" class="text-gray-400 hover:text-gray-500">
@@ -320,6 +323,9 @@
 
             </div>
             <div class="mt-8 md:order-1 md:mt-0">
+                <div>
+                    <img src="{{ Vite::asset('resources/images/logo.png') }}">
+                </div>
                 <p class="text-center text-xs leading-5 text-gray-500">&copy; 2023 Woofs Upon A Walk, Inc. All rights reserved.</p>
             </div>
         </div>
