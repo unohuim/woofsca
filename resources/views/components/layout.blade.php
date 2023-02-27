@@ -18,8 +18,11 @@
 
 
     <body class="h-full antialiased">
+        
 
         {{ $slot }}
+
+        
 
     </body>
 </html>
